@@ -1,8 +1,14 @@
 import "./App.css";
+import PlanLayout from "./pages/Layouts/PlanLayout";
 import Welcome from "./pages/Welcome";
 
+// <Playlayout>
 function App() {
-  return <Welcome />;
+  return (
+    <PlanLayout>
+      <Welcome />
+    </PlanLayout>
+  );
 }
 
 export default App;
