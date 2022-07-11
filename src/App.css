@@ -19,7 +19,7 @@ button {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .primaryBtn {
@@ -31,4 +31,8 @@ a {
   font-weight: 500;
   font-style: normal;
   text-align: center;
+}
+
+a:hover {
+  text-decoration: none !important;
 }

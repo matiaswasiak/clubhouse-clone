@@ -4,6 +4,7 @@ import Welcome from "./pages/Welcome";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PhoneConfirmation from "./pages/PhoneConfirmation";
+import CodeConfirm from "./pages/CodeConfirm";
 
 // <Playlayout>
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/invite" element={<PhoneConfirmation />} />
+          <Route path="/code_confirm" element={<CodeConfirm />} />
         </Routes>
       </PlanLayout>
     </BrowserRouter>
