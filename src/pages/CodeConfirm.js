@@ -8,6 +8,7 @@ const CodeConfirm = () => {
       <Link to="/get_username" className={style.backBtn}>
         <img src="/images/arrow.png" alt="" />
       </Link>
+
       <div className="text-center">
         <h1 style={{ width: "100%", maxWidth: "200px", marginBottom: "1em" }}>
           Enter the code we just texted you
